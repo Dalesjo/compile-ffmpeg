@@ -9,4 +9,8 @@
 ./Dependencies/install-opus.sh
 ./Dependencies/install-libvpx.sh
 
+./Dependencies/install-libogg.sh
+./Dependencies/install-libvorbis.sh
+
+
 

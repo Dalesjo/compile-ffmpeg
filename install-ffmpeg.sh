@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/ffmpeg_sources
-curl -O -L https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2
+
 tar xjvf ffmpeg-snapshot.tar.bz2
 cd ffmpeg
 PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure \
